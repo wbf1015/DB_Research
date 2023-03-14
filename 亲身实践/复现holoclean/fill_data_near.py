@@ -3,8 +3,7 @@ from decimal import Decimal
 import numpy as np
 import csv
 
-org_data = pd.read_csv("./repair_value/energy_repaired4.csv")[
-    ["T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9"]].to_numpy()
+org_data = pd.read_csv("./repair_value/energy_repaired4.csv")[["T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9"]].to_numpy()
 
 '''
 i 代表行索引
